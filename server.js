@@ -10,7 +10,7 @@ app.use(express.static(path.resolve(__dirname + './public')));
 
 // handle "404" errors
 app.use((req, res) => {
-    res.sendFile(path.join(__dirname + "/public/index.html"));
+    res.sendFile(path.join(__dirname + "/../public/index.html"));
 });
 
 // Start the server
