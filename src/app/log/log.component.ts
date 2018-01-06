@@ -9,13 +9,15 @@ import {LogService} from '../data/log.service';
 export class LogComponent implements OnInit {
 
   entries: string[];
-  private getLogSub: any;
+  getLogSub: any;
+  empty = true;
 
   constructor(private logService: LogService) { }
 
   ngOnInit() {
     this.getLogSub = this.logService.getLog.subscribe((data)=>{
       this.entries = data;
+      this.empty = false;
     });
   }
 
