@@ -36,10 +36,10 @@
                 <label class="control-label"  >Position:
                 </label>
                 <select class="form-control" id="Position" 
-                [(ngModel)]="employee.Position.PositionName" name="Position">
+                [(ngModel)]="employee.Position" name="Position">
                   <option *ngFor="let position of positions" 
                   [value]="position._id"
-                  [attr.selected]="employee.Position.PositionName"
+                  [attr.selected]="employee.Position"
                   >{{position.PositionName}}
                 </option>
                 </select>
