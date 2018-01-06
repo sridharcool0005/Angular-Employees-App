@@ -14,7 +14,7 @@ c Policy.  No part of this
 *  Name: Stephanie Tran Student ID: 134 233 162 Date:January 5 2018
 *
 *  
-Heroku Link: _______________________________________________________________
+Heroku Link: https://s-assignment-7.herokuapp.com/
 *
 ********************************************************************************/ 
 
